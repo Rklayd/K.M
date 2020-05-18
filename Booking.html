@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="jquery-3.5.1.js"></script>
+<meta charset="UTF-8">
+<title>Booking</title>
+<link rel="stylesheet" href="style.css">
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
+</head>
+<body class="body2">
+
+
+<div class="container booking3">
+<div class="container-time booking3">
+<h2 class="heading">Work Time</h2>
+<h3 class="heading-days">Sunday-Thursday</h3>
+<p>1:00-5:00 PM</p>
+<p>Each one hour is a different lesson</p>
+
+<h3 class="heading-days">Days off:</h3>
+<p>Friday</p>
+<p>Saturday</p>
+
+<hr>
+
+<h4 class="heading-phone">Call Me:+966 55 557 5360</h4>
+</div>
+
+<div class="container-form booking3">
+<form action="#">
+<h2 class="heading heading-yellow">Reservation Online</h2>
+
+<div class="form-field">
+<p>Your Name</p>
+<input type="text" placeholder="Your Name">
+</div>
+<div class="form-field">
+<p>Your email</p>
+<input type="email" placeholder="Your email">
+</div>
+<div class="form-field">
+<p>Your Phone Number</p>
+<input type="text" placeholder="Your Phone Number">
+</div>
+<div class="form-field">
+<p>Date</p>
+<input type="date">
+</div>
+<div class="form-field">
+<p>Time</p>
+<select name="select" id="#">
+<option value="1">1:00-2:00 PM</option>
+<option value="2">2:00-3:00 PM</option>
+<option value="3">3:00-4:00 PM</option>
+<option value="4">4:00-5:00 PM</option>
+</select>
+</div>
+<button class="button">Submit</button>
+</form>
+</div>
+</div>
+<div class="loader-wrapper">
+<span class="loader"><span class="loader-inner"></span></span>
+</div>
+<script>
+setTimeout(function(){
+$(".loader-wrapper").fadeOut("slow");
+}, 1000);
+</script>
+</body>
+</html>

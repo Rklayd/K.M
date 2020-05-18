@@ -1,0 +1,241 @@
+.Title{text-align: center;
+font-family: 'Lobster', cursive;
+font-size: 80px;
+color: Black;
+}
+.btn{ border: 1px solid #0f1180;
+  background-color:#ffffff;
+  padding: 10px 20px;
+font-size: 40px;
+font-family:"Monoton";
+cursor: pointer;
+margin: 10px;
+transition: 0.8s;
+
+}
+.btn1, .btn2{color: #3498db;
+}
+.btn1:hover,.btn2:hover{color:#c20404;
+}
+A {text-decoration: none;}
+.btn1{margin-left: 10px;
+  margin-top: 30px;
+}
+.btn2{margin-left: 915px;
+  margin-top: 30px;
+}
+.Schedule{margin-left: auto;
+margin-right: auto;
+padding: 10px;
+height: 80%;
+width: 80%;
+}
+td{text-align: center;
+}
+.Background{background-color:#fff
+}
+.body1{
+  margin: 0;
+  padding: 0;
+  background: #2980b9;
+}
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #242f3f;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+}
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+@keyframes loader {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(180deg);}
+  50% { transform: rotate(180deg);}
+  75% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg);}
+}
+@keyframes loader-inner {
+  0% { height: 0%;}
+  25% { height: 0%;}
+  50% { height: 100%;}
+  75% { height: 100%;}
+  100% { height: 0%;}
+}
+.body2{
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+color: #fff;
+letter-spacing: 1px;
+}
+.container{
+background-color: #fafafa;
+margin: 200px;
+box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
+display: grid;
+grid-template-columns: 40% 60%;
+}
+.container-time {
+background-color: rgba(0, 0, 0, .95);
+padding: 50px;
+outline: 3px dashed #998100;
+outline-offset: -30px;
+text-align: center;
+}
+.heading {
+font-size: 35px;
+text-transform: uppercase;
+}
+
+.heading-days {
+color:#998100;
+font-size: 30px;
+
+}
+
+.heading-phone {
+font-size: 20px;
+}
+.container-form {
+padding: 20px 0;
+margin: 0 auto;
+color: #000;
+}
+form {
+display: grid;
+grid-row-gap: 20px;
+}
+form p {
+font-weight: 600;
+}
+.form-field {
+display: flex;
+justify-content: space-between;
+}
+
+input,select {
+padding: 10px 15px;
+}
+.button {
+background-color: rgba(0, 0, 0, .95);
+color: #fff;
+padding: 10px 20px;
+border: none;
+font-size: 18px;
+border-radius: 100px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+-ms-border-radius: 100px;
+-o-border-radius: 100px;
+box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+cursor: pointer;
+transition: all .3s;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+-ms-transition: all .3s;
+-o-transition: all .3s;
+}
+
+.button:hover {
+transform: scale(1.03);
+-webkit-transform: scale(1.03);
+-moz-transform: scale(1.03);
+-ms-transform: scale(1.03);
+-o-transform: scale(1.03);
+box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+.body2{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.about-section{
+    background: url(Dad.JPG) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+.booking3{width:80%;
+length:80%;
+}
